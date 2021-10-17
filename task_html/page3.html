@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page three</title>
+</head>
+<body >
+    <form border="1" width="600px" height="400px">
+        <h3>please fill all fields below</h3>
+        <div>
+        <label for="name">Full Name</label>
+        <input type="text" name="text" placeholder="type your full name here" id="name">
+        <input list="kind" name="kind" value="Male">
+        <datalist id="kind">
+            <option value="Male">
+            <option value="Female">
+            <option value="other">
+        </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="nation">Nationlity</label>
+            <input list="nation" name="nan">
+            <datalist id="nation">
+                <option value="Egyption">
+                <option value="French">
+                <option value="Korean">
+                <option value="lebnanan">
+                <option value="Amercain">
+                <option value="Italian">
+                <option value="African">
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="phon">Telephone</label>
+            <input type="tel" name="tel" id="phon" placeholder="type your tele num here">
+            <label for="fax">Fax</label>
+            <input type="number" name="num" placeholder="type fax num here" id="fax">
+        </div>
+        <br>
+        <div>
+            <label for="nm">mobile</label>
+            <input type="tel" name="num" id="nm" placeholder="type your tele num here">
+            <label for="emi">Email</label>
+            <input type="email" name="em" id="emi" placeholder="type your email here">
+        </div>
+        <br>
+        <label for="lang">Spoken Language</label>
+        <input list="lang" name="lang" >
+        <datalist id="lang">
+            <option value="Arabic">
+            <option value="English">
+            <option value="french">
+            <option value="korean">
+            <option value="german">
+        </datalist>
+        <br>
+        <hr>
+        <br>
+        <div>
+        <label for="dt">Arival Date</label>
+        <input type="date" name="date" id="dt">
+        <label for="tm">Arrival time</label>
+        <input type="time" name="time" id="tm">
+        </div>
+        <br>
+        <div>
+            <label for="fly">flight num</label>
+            <input type="number" name="numm" id="fly">
+            <label for="air">Air line</label>
+            <input type="text" name="textt" id="air">
+        </div>
+        <br>
+        <label for="pt">Air port</label>
+        <input type="text" name="port" id="pt">
+        <br>
+        <hr>
+        <div>
+            <label for="de">Departure Date</label>
+            <input type="date" name="date" id="de">
+            <label for="dtime">Departure time</label> 
+            <input type="time" name="detime" id="dtime">
+        </div>
+        <br>
+        <div>
+            <label for="flight">Flight num</label>
+            <input type="text" name="num" id="flight">
+            <label for="line">Air linr</label>
+            <input type="text" name=" Air line" id="line">
+        </div>
+        <br>
+        <div>
+            <label for="PORT">Air port</label>
+            <input type="text" name="Air port" id="PORT">
+        </div>
+        <br>
+        <div>
+            <label for="gategory">Accommodation Gategory</label>
+            <input list="gategory" name="gate" value="3 stars">
+            <datalist id="gategory">
+                <option value="1 stars">
+                <option value="2 stars">
+                <option value="3 stars">
+                <option value="4 stars">
+                <option value="5 stars">
+                <option value="6 stars">
+                <option value="7 stars">
+                <option value="8 stars">
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="adult">Adults Number</label>
+            <input type="number" name="num" id="adult" value="1">
+            <label for="child">Child Number</label>
+            <input type="number" name="numm" id="child" value="0">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age of children</label>
+            <input type="text" name="txt" id="age">
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <label for="area">Note</label>
+            <textarea name="textarea" id="area"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Book now">
+    </form>
+</body>
+</html>
